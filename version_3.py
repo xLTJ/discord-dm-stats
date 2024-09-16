@@ -6,13 +6,13 @@ import re
 # ---- SETTINGS -------
 make_plot = True  # Overwrites other actions
 
-export_message = False
-specific_date = '2023-12-31'
+export_message = False  # Exports the messages to a csv file
+specific_date = '2023-12-31'  # Gets messages from a specific date (only works with export messages)
 print_messages_per_day = False
 
-by_week = False
+by_week = False  # This does not work and i should probably remove it cus who cares
 
-find_text = False
+find_text = False  # If only messages containing the string in "text_to_find" should be included. Only works with export messages rn.
 text_to_find = ''
 
 find_call_time = True  # only works with plot
